@@ -1,0 +1,45 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linting and type checking
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases and uploaded documents
+*.db
+*.sqlite3
+data/
+uploads/
